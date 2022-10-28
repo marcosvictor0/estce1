@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/*
+#282c34 = um cinza escuro
+*/
+
+.App-header {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: black;
+}
+
+.nome-princ {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #1dfe18 -106.88deg,
+    #0501de 110.62deg,
+    #1dfe18 253.13deg,
+    #0501de 470.63deg
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;  
+}
+
+.div-bttn {
+  height: 100%;
+  position: relative;
+}
+
+.bttn-pesquisa {
+  background: #ffffff;
+  border: none;
+  border-radius: 25px;
+  font-family: "Inter", sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Web Dark mode */
