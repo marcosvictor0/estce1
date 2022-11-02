@@ -20,11 +20,10 @@
   align-items: center;
   justify-content: center;
   font-size: 40px;
-  color: black;
 }
 
 .nome-princ {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
@@ -42,21 +41,16 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;  
-}
-
-.div-bttn {
-  height: 100%;
-  position: relative;
+  background-clip: text;
 }
 
 .bttn-pesquisa {
   background: #ffffff;
   border: none;
   border-radius: 25px;
-  font-family: "Inter", sans-serif;
-  height: 100%;
-  width: 100%;
+  font-family: 'Inter', sans-serif;
+  height: 50%;
+  width: 50%;
 }
 
 @keyframes App-logo-spin {
