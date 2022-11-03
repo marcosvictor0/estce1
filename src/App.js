@@ -14,7 +14,7 @@ function App() {
           aria-live="polite"
         ></input>
         <button className="btn-pesquisa">
-          <a href="index.html">Pesquisar no EsTce</a>
+          <a className="btn-pesquisatext" href="index.html">Pesquisar no EsTce</a>
         </button>
       </main>
       <footer>

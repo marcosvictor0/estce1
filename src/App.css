@@ -94,15 +94,14 @@ a {
   /* height: 50%; */
   width: 35%;
   background: #ffffff;
-  mix-blend-mode: normal;
   border: 1px solid #000000;
   border-radius: 25px;
   padding: 10px;
 }
 
 .btn-pesquisa {
-  background: #ffffff;
-  border: 1px solid #000000;
+  background: #ebe9e9;
+  border: 1px solid #faf6f6;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -111,6 +110,20 @@ a {
   margin: 22px; 
   width: 200px;
   height: 25px;
+}
+
+.btn-pesquisatext{
+  color: #000000;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 13px;
+  line-height: 22px;
+  text-decoration: none;
+  margin: 3px;
+}
+
+.btn-pesquisa:hover{
+  border: 1px solid #000000
 }
 
 @keyframes App-logo-spin {
