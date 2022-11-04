@@ -88,8 +88,8 @@ export default function App() {
           </button>
           </div> */}
         <Routes>
-          <Route path="../public/index.html" element={<Home />}>teste</Route>
-          <Route path="../public/resultados.html" element={<Resultados />}>teste</Route>
+          <Route path=".index.html" element={<Home />}>teste</Route>
+          <Route path=".resultados.html" element={<Resultados />}>teste</Route>
         </Routes>
       </div>
 
