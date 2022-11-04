@@ -71,7 +71,7 @@
 // export default App;
 import "./App.css";
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link,} from "react-router-dom";
 
 export default function App() {
   return (
@@ -88,7 +88,7 @@ export default function App() {
           </button>
           </div> */}
         <Routes>
-          <Route path="./index.js" element={<Home />}>teste</Route>
+          <Route path="../public/index.html" element={<Home />}>teste</Route>
           <Route path="../public/resultados.html" element={<Resultados />}>teste</Route>
         </Routes>
       </div>
@@ -148,13 +148,13 @@ function BtnHeader() {
     <div className="div-buts">
       <button className="btn-html">
       <img src="./assets/Search.png" alt=""/>
-        <Link to="./index.js" className="">
+        <Link to="./index.html" className="">
           Pesquisar
         </Link>
       </button>
       <button className="btn-html">
       <img src="./assets/File.png" alt=""/>
-        <Link to="./resultados.js" className="">
+        <Link to="./resultados.html" className="">
           Resultados
         </Link>
       </button>
